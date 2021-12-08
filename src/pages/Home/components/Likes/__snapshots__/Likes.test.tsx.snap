@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Likes /> should render Likes component (snapshot) 1`] = `
+<DocumentFragment>
+  <button
+    class="btn"
+    type="button"
+  >
+    buttons.likes
+    <span>
+      1
+    </span>
+  </button>
+</DocumentFragment>
+`;

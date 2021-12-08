@@ -1,0 +1,21 @@
+@import "src/styles/theme";
+
+.root {
+  text-align: center;
+  padding-top: 42px;
+
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 20px;
+    color: $cBlackLight;
+  }
+
+  .buttonsWrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+  }  
+}

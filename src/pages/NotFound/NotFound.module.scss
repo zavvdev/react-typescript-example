@@ -1,0 +1,15 @@
+@import "src/styles/theme";
+
+.root {
+  text-align: center;
+  padding-top: 142px;
+
+  span {
+    font-size: 30px;
+    color: $cBlackLight;
+  }
+
+  .btn {
+    margin: 42px auto 0 auto;
+  }
+}

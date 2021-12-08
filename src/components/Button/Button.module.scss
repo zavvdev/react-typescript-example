@@ -1,0 +1,37 @@
+@import "src/styles/theme";
+
+.root {
+  background-color: $cPrimary;
+  border: none;
+  color: $cWhite;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: max-content;
+
+  &:hover {
+    background-color: $cPrimaryDark;
+  }
+}
+
+.icon {
+  margin-right: 10px;
+  fill: $cWhite;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  margin-left: -3px;
+}
+
+.disabled {
+  cursor: default;
+  pointer-events: none;
+  background-color: $cPrimaryLight;
+}

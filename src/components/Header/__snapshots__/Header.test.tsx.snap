@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render Header component (snapshot) 1`] = `
+<DocumentFragment>
+  <header
+    class="root"
+  >
+    <img
+      alt="appName"
+      class="logo"
+      src="https://test-file-stub"
+    />
+    <div
+      class="root"
+    >
+      <div
+        class="langWrap"
+      >
+        <button
+          class="lang active"
+          type="button"
+        >
+          en
+        </button>
+        <span>
+          |
+        </span>
+      </div>
+      <div
+        class="langWrap"
+      >
+        <button
+          class="lang"
+          type="button"
+        >
+          ru
+        </button>
+      </div>
+    </div>
+  </header>
+</DocumentFragment>
+`;

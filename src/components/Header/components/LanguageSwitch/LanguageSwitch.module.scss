@@ -1,0 +1,25 @@
+@import "src/styles/theme";
+
+.root {
+  display: flex;
+  align-items: center;
+
+  .langWrap {
+    & span {
+      cursor: pointer;
+    }
+
+    .lang {
+      cursor: pointer;
+      border: none;
+      background: none;
+      text-transform: uppercase;
+      padding: 10px;
+
+      &.active {
+        color: $cPrimary;
+        font-weight: bold;
+      }
+    }
+  }
+}
